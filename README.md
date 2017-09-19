@@ -8,5 +8,5 @@ npm --save install @gyselroth/icon-collection
 ```
 ## Usage example
 ```html
-<div class="k-icon k-i-file"></div>
+<div class="gr-icon gr-i-file"></div>
 ```

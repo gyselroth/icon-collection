@@ -1,6 +1,6 @@
 {
   "name": "@gyselroth/icon-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SVG icon collection (including css definitions)",
   "main": "index.js",
   "scripts": {
