@@ -1,0 +1,27 @@
+{
+  "name": "icon-collection",
+  "version": "1.0.0",
+  "description": "SVG icon collection (including css definitions), this library is also kendo-ui-core compatible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyselroth/icon-collection.git"
+  },
+  "keywords": [
+    "svg",
+    "icon",
+    "collection",
+    "kendo-ui",
+    "css3",
+    "css"
+  ],
+  "author": "gyselroth GmbH <maint@gyselroth.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyselroth/icon-collection/issues"
+  },
+  "homepage": "https://github.com/gyselroth/icon-collection#readme"
+}
