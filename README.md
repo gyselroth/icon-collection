@@ -9,10 +9,11 @@ This library provides an icon collection based on svg.
 ```
 npm --save install @gyselroth/icon-collection
 ```
+
 ## Usage example
 ```html
 <div class="gr-icon gr-i-file"></div>
 ```
 
-## Preview
+## Icon collection
 ![Preview](https://raw.githubusercontent.com/gyselroth/icon-collection/master/src/icons.svg?sanitize=true)
