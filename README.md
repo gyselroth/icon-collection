@@ -15,5 +15,18 @@ npm --save install @gyselroth/icon-collection
 <div class="gr-icon gr-i-file"></div>
 ```
 
+## Colorize your icons
+
+You can use an icon with any color you like. If you do you have to switch from the css class `gr-icon` to `gr-mask-icon`.
+An icon with gr-mask-icon takes the color from `background-color`.
+
+```html
+<div style="background-color: #F01;" class="gr-mask-icon gr-i-file"></div>
+```
+
+### Browser Support
+If you want to use color masks, please see browser support for [css masks](http://caniuse.com/#feat=css-masks).
+
+
 ## Icon collection
 ![Preview](https://raw.githubusercontent.com/gyselroth/icon-collection/master/src/icons.svg?sanitize=true)
