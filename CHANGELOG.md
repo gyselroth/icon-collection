@@ -1,3 +1,10 @@
+## 1.0.8
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Date**: Tue 21 Aug 2018 12:08:45 CEST
+
+* [FIX] fixed invalid icons cloud-upload, folder-received, file-add
+
+
 ## 1.0.7
 **Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
 **Date**: Tue 21 Aug 2018 10:35:45 CEST
