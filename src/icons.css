@@ -1,14 +1,3 @@
-.gr-icon {
-	width: 24px;
-	height: 24px;
-	background-image: url(icons.svg);
-	background-repeat: no-repeat;
-	background-size: 24px;
-	opacity: 0.72;
-	-webkit-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
 .gr-mask-icon {
   mask-image: url(icons.svg);
   -webkit-mask-image: url(icons.svg);
@@ -20,277 +9,285 @@
   transition: all 0.2s;
 }
 
+.gr-icon {
+  width: 24px;
+  height: 24px;
+  background-image: url(icons.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  opacity: 0.72;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
 svg.gr-icon {
-	width: 24px;
-	height: 24px;
-	opacity: 0.72;
-	background-image: none;
+  width: 24px;
+  height: 24px;
+  opacity: 0.72;
+  background-image: none;
 }
 
 .gr-icon:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
-/* DIRECTION */
-
-.up {}
-
-.left {
-	-ms-transform: rotate(90deg);
+.gr-icon.left {
+  -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-.down {
-	-ms-transform: rotate(180deg);
+.gr-icon.down {
+  -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.right {
-	-ms-transform: rotate(270);
+.gr-icon.right {
+  -ms-transform: rotate(270);
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
-
-/* COLOR */
-
-.sec {
-	opacity: 0.32;
+.gr-icon.sec {
+  opacity: 0.32;
 }
 
-.sec:hover {
-	opacity: 0.4;
+.gr-icon.sec:hover {
+  opacity: 0.4;
 }
 
-.inv {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	opacity: 0.84;
+.gr-icon.inv {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  opacity: 0.84;
 }
 
-.inv:hover {
-	opacity: 0.92;
+.gr-icon.inv:hover {
+  opacity: 0.92;
 }
 
-.disabled, .disabled:hover {
-	opacity: 0.24;
+.gr-icon.disabled, .gr-icon.disabled:hover {
+  opacity: 0.24;
 }
 
 [class*=gr-i-file-] {
-	opacity: 1;
+  opacity: 1;
 }
 
 [class*=gr-i-file-]:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
-/* XLINK only */
-.warning {
-	opacity: 1;
-	fill: #E59900;
+.gr-icon.warning {
+  opacity: 1;
+  fill: #E59900;
 }
 
-.error {
-	opacity: 1;
-	fill: #E51717;
+.gr-icon.error {
+  opacity: 1;
+  fill: #E51717;
 }
 
-.success {
-	opacity: 1;
-	fill: #47991F;
+.gr-icon.success {
+  opacity: 1;
+  fill: #47991F;
 }
 
+.gr-i-add              {background-position: 0 0;}
+.gr-i-alert            {background-position: 0 calc(1 * -24px);}
+.gr-i-book             {background-position: 0 calc(2 * -24px);}
+.gr-i-bookmark         {background-position: 0 calc(3 * -24px);}
+.gr-i-calendar         {background-position: 0 calc(4 * -24px);}
+.gr-i-chart            {background-position: 0 calc(5 * -24px);}
+.gr-i-chat             {background-position: 0 calc(6 * -24px);}
+.gr-i-check            {background-position: 0 calc(7 * -24px);}
+.gr-i-checkmark        {background-position: 0 calc(8 * -24px);}
+.gr-i-class-book       {background-position: 0 calc(9 * -24px);}
+.gr-i-class-book-flip  {background-position: 0 calc(10 * -24px);}
+.gr-i-clock            {background-position: 0 calc(11 * -24px);}
+.gr-i-clear            {background-position: 0 calc(12 * -24px);}
+.gr-i-close-panel      {background-position: 0 calc(13 * -24px);}
+.gr-i-cmd              {background-position: 0 calc(14 * -24px);}
+.gr-i-cog              {background-position: 0 calc(15 * -24px);}
+.gr-i-columns          {background-position: 0 calc(16 * -24px);}
+.gr-i-connector        {background-position: 0 calc(17 * -24px);}
+.gr-i-copy             {background-position: 0 calc(18 * -24px);}
+.gr-i-crop             {background-position: 0 calc(19 * -24px);}
+.gr-i-cut              {background-position: 0 calc(20 * -24px);}
+.gr-i-dashboard        {background-position: 0 calc(21 * -24px);}
+.gr-i-day              {background-position: 0 calc(22 * -24px);}
+.gr-i-deny             {background-position: 0 calc(23 * -24px);}
+.gr-i-desktop          {background-position: 0 calc(24 * -24px);}
+.gr-i-device           {background-position: 0 calc(25 * -24px);}
+.gr-i-dialogue         {background-position: 0 calc(26 * -24px);}
+.gr-i-dimension        {background-position: 0 calc(27 * -24px);}
+.gr-i-download         {background-position: 0 calc(28 * -24px);}
+.gr-i-drag             {background-position: 0 calc(29 * -24px);}
+.gr-i-drag-active      {background-position: 0 calc(30 * -24px);}
+.gr-i-duplicate        {background-position: 0 calc(31 * -24px);}
+.gr-i-emoticon         {background-position: 0 calc(32 * -24px);}
+.gr-i-empty            {background-position: 0 calc(33 * -24px);}
+.gr-i-event-available  {background-position: 0 calc(34 * -24px);}
+.gr-i-error            {background-position: 0 calc(35 * -24px);}
+.gr-i-excused          {background-position: 0 calc(36 * -24px);}
+.gr-i-exit             {background-position: 0 calc(37 * -24px);}
+.gr-i-favorite         {background-position: 0 calc(38 * -24px);}
+.gr-i-logout           {background-position: 0 calc(39 * -24px);}
+.gr-i-filter           {background-position: 0 calc(40 * -24px);}
+.gr-i-flag             {background-position: 0 calc(41 * -24px);}
+.gr-i-full             {background-position: 0 calc(42 * -24px);}
+.gr-i-fullscreen       {background-position: 0 calc(43 * -24px);}
+.gr-i-funnel           {background-position: 0 calc(44 * -24px);}
+.gr-i-grid             {background-position: 0 calc(45 * -24px);}
+.gr-i-group            {background-position: 0 calc(46 * -24px);}
+.gr-i-group-add        {background-position: 0 calc(47 * -24px);}
+.gr-i-half             {background-position: 0 calc(48 * -24px);}
+.gr-i-help             {background-position: 0 calc(49 * -24px);}
+.gr-i-home             {background-position: 0 calc(50 * -24px);}
+.gr-i-hourglass        {background-position: 0 calc(51 * -24px);}
+.gr-i-info             {background-position: 0 calc(52 * -24px);}
+.gr-i-insert-file      {background-position: 0 calc(53 * -24px);}
+.gr-i-insert-m         {background-position: 0 calc(54 * -24px);}
+.gr-i-insert-n         {background-position: 0 calc(55 * -24px);}
+.gr-i-insert-s         {background-position: 0 calc(56 * -24px);}
+.gr-i-interruption     {background-position: 0 calc(57 * -24px);}
+.gr-i-kpi              {background-position: 0 calc(58 * -24px);}
+.gr-i-language         {background-position: 0 calc(59 * -24px);}
+.gr-i-laptop           {background-position: 0 calc(60 * -24px);}
+.gr-i-lock             {background-position: 0 calc(61 * -24px);}
+.gr-i-mail             {background-position: 0 calc(62 * -24px);}
+.gr-i-map              {background-position: 0 calc(63 * -24px);}
+.gr-i-maximize         {background-position: 0 calc(64 * -24px);}
+.gr-i-minimize         {background-position: 0 calc(65 * -24px);}
+.gr-i-minus            {background-position: 0 calc(66 * -24px);}
+.gr-i-note             {background-position: 0 calc(67 * -24px);}
+.gr-i-note-fill        {background-position: 0 calc(68 * -24px);}
+.gr-i-open-in-browser  {background-position: 0 calc(69 * -24px);}
+.gr-i-open-in-new      {background-position: 0 calc(70 * -24px);}
+.gr-i-open-panel       {background-position: 0 calc(71 * -24px);}
+.gr-i-paste            {background-position: 0 calc(72 * -24px);}
+.gr-i-pause            {background-position: 0 calc(73 * -24px);}
+.gr-i-pencil           {background-position: 0 calc(74 * -24px);}
+.gr-i-person           {background-position: 0 calc(75 * -24px);}
+.gr-i-person-add       {background-position: 0 calc(76 * -24px);}
+.gr-i-pin              {background-position: 0 calc(77 * -24px);}
+.gr-i-place            {background-position: 0 calc(78 * -24px);}
+.gr-i-play             {background-position: 0 calc(79 * -24px);}
+.gr-i-plus             {background-position: 0 calc(80 * -24px);}
+.gr-i-preview          {background-position: 0 calc(81 * -24px);}
+.gr-i-print            {background-position: 0 calc(82 * -24px);}
+.gr-i-quarter          {background-position: 0 calc(83 * -24px);}
+.gr-i-redo             {background-position: 0 calc(84 * -24px);}
+.gr-i-refresh          {background-position: 0 calc(85 * -24px);}
+.gr-i-remove           {background-position: 0 calc(86 * -24px);}
+.gr-i-restore          {background-position: 0 calc(87 * -24px);}
+.gr-i-rotate-ccw       {background-position: 0 calc(88 * -24px);}
+.gr-i-rotate-cw        {background-position: 0 calc(89 * -24px);}
+.gr-i-rows             {background-position: 0 calc(90 * -24px);}
+.gr-i-rss-feed         {background-position: 0 calc(91 * -24px);}
+.gr-i-search           {background-position: 0 calc(92 * -24px);}
+.gr-i-seek-e           {background-position: 0 calc(93 * -24px);}
+.gr-i-seek-n           {background-position: 0 calc(94 * -24px);}
+.gr-i-seek-s           {background-position: 0 calc(95 * -24px);}
+.gr-i-seek-w           {background-position: 0 calc(96 * -24px);}
+.gr-i-settings         {background-position: 0 calc(97 * -24px);}
+.gr-i-shuffle          {background-position: 0 calc(98 * -24px);}
+.gr-i-sort-asc         {background-position: 0 calc(99 * -24px);}
+.gr-i-sort-desc        {background-position: 0 calc(100 * -24px);}
+.gr-i-sum              {background-position: 0 calc(101 * -24px);}
+.gr-i-swap-horiz       {background-position: 0 calc(102 * -24px);}
+.gr-i-swap-vert        {background-position: 0 calc(103 * -24px);}
+.gr-i-sync             {background-position: 0 calc(104 * -24px);}
+.gr-i-tag              {background-position: 0 calc(105 * -24px);}
+.gr-i-trash            {background-position: 0 calc(106 * -24px);}
+.gr-i-three-quarters   {background-position: 0 calc(107 * -24px);}
+.gr-i-undo             {background-position: 0 calc(108 * -24px);}
+.gr-i-unexcused        {background-position: 0 calc(109 * -24px);}
+.gr-i-unfold           {background-position: 0 calc(110 * -24px);}
+.gr-i-unlock           {background-position: 0 calc(111 * -24px);}
+.gr-i-upload           {background-position: 0 calc(112 * -24px);}
+.gr-i-volume-mute      {background-position: 0 calc(113 * -24px);}
+.gr-i-volume-up        {background-position: 0 calc(114 * -24px);}
+.gr-i-warning          {background-position: 0 calc(115 * -24px);}
+.gr-i-warning-fill     {background-position: 0 calc(116 * -24px);}
+.gr-i-close            {background-position: 0 calc(117 * -24px);}
+.gr-i-zoom-in          {background-position: 0 calc(118 * -24px);}
+.gr-i-zoom-out         {background-position: 0 calc(119 * -24px);}
 
-.gr-i-add 		        	{background-position: 0 0;}
-.gr-i-alert 		     		{background-position: 0 calc(1 * -24px);}
-.gr-i-book 		     		{background-position: 0 calc(2 * -24px);}
-.gr-i-bookmark 	   		{background-position: 0 calc(3 * -24px);}
-.gr-i-calendar      		{background-position: 0 calc(4 * -24px);}
-.gr-i-chart 	      		{background-position: 0 calc(5 * -24px);}
-.gr-i-chat 	       		{background-position: 0 calc(6 * -24px);}
-.gr-i-check 						{background-position: 0 calc(7 * -24px);}
-.gr-i-checkmark 				{background-position: 0 calc(8 * -24px);}
-.gr-i-class-book				{background-position: 0 calc(9 * -24px);}
-.gr-i-class-boogr-flip	{background-position: 0 calc(10 * -24px);}
-.gr-i-clock						{background-position: 0 calc(11 * -24px);}
-.gr-i-clear						{background-position: 0 calc(12 * -24px);}
-.gr-i-close-panel			{background-position: 0 calc(13 * -24px);}
-.gr-i-cmd							{background-position: 0 calc(14 * -24px);}
-.gr-i-cog							{background-position: 0 calc(15 * -24px);}
-.gr-i-columns		    	{background-position: 0 calc(16 * -24px);}
-.gr-i-connector		   	{background-position: 0 calc(17 * -24px);}
-.gr-i-copy		    			{background-position: 0 calc(18 * -24px);}
-.gr-i-crop		    			{background-position: 0 calc(19 * -24px);}
-.gr-i-cut		    			{background-position: 0 calc(20 * -24px);}
-.gr-i-dashboard		   	{background-position: 0 calc(21 * -24px);}
-.gr-i-day		    			{background-position: 0 calc(22 * -24px);}
-.gr-i-deny		    			{background-position: 0 calc(23 * -24px);}
-.gr-i-desktop		    	{background-position: 0 calc(24 * -24px);}
-.gr-i-device			    	{background-position: 0 calc(25 * -24px);}
-.gr-i-dialogue					{background-position: 0 calc(26 * -24px);}
-.gr-i-dimension				{background-position: 0 calc(27 * -24px);}
-.gr-i-download					{background-position: 0 calc(28 * -24px);}
-.gr-i-drag							{background-position: 0 calc(29 * -24px);}
-.gr-i-drag-active			{background-position: 0 calc(30 * -24px);}
-.gr-i-duplicate				{background-position: 0 calc(31 * -24px);}
-.gr-i-emoticon					{background-position: 0 calc(32 * -24px);}
-.gr-i-empty						{background-position: 0 calc(33 * -24px);}
-.gr-i-event-available	{background-position: 0 calc(34 * -24px);}
-.gr-i-error						{background-position: 0 calc(35 * -24px);}
-.gr-i-excused					{background-position: 0 calc(36 * -24px);}
-.gr-i-exit							{background-position: 0 calc(37 * -24px);}
-.gr-i-favorite		    	{background-position: 0 calc(38 * -24px);}
-.gr-i-logout		    		{background-position: 0 calc(39 * -24px);}
-.gr-i-filter		    		{background-position: 0 calc(40 * -24px);}
-.gr-i-flag		    			{background-position: 0 calc(41 * -24px);}
-.gr-i-full		    			{background-position: 0 calc(42 * -24px);}
-.gr-i-fullscreen		   	{background-position: 0 calc(43 * -24px);}
-.gr-i-funnel	    			{background-position: 0 calc(44 * -24px);}
-.gr-i-grid	    				{background-position: 0 calc(45 * -24px);}
-.gr-i-group	    			{background-position: 0 calc(46 * -24px);}
-.gr-i-group-add	    	{background-position: 0 calc(47 * -24px);}
-.gr-i-half		    			{background-position: 0 calc(48 * -24px);}
-.gr-i-help		    			{background-position: 0 calc(49 * -24px);}
-.gr-i-home		    			{background-position: 0 calc(50 * -24px);}
-.gr-i-hourglass		   	{background-position: 0 calc(51 * -24px);}
-.gr-i-info		   				{background-position: 0 calc(52 * -24px);}
-.gr-i-insert-file			{background-position: 0 calc(53 * -24px);}
-.gr-i-insert-m					{background-position: 0 calc(54 * -24px);}
-.gr-i-insert-n					{background-position: 0 calc(55 * -24px);}
-.gr-i-insert-s					{background-position: 0 calc(56 * -24px);}
-.gr-i-interruption			{background-position: 0 calc(57 * -24px);}
-.gr-i-kpi							{background-position: 0 calc(58 * -24px);}
-.gr-i-language					{background-position: 0 calc(59 * -24px);}
-.gr-i-laptop						{background-position: 0 calc(60 * -24px);}
-.gr-i-lock							{background-position: 0 calc(61 * -24px);}
-.gr-i-mail							{background-position: 0 calc(62 * -24px);}
-.gr-i-map							{background-position: 0 calc(63 * -24px);}
-.gr-i-maximize		    	{background-position: 0 calc(64 * -24px);}
-.gr-i-minimize		    	{background-position: 0 calc(65 * -24px);}
-.gr-i-minus			    	{background-position: 0 calc(66 * -24px);}
-.gr-i-note			    		{background-position: 0 calc(67 * -24px);}
-.gr-i-note-fill				{background-position: 0 calc(68 * -24px);}
-.gr-i-open-in-browser 	{background-position: 0 calc(69 * -24px);}
-.gr-i-open-in-new 			{background-position: 0 calc(70 * -24px);}
-.gr-i-open-panel 			{background-position: 0 calc(71 * -24px);}
-.gr-i-paste 						{background-position: 0 calc(72 * -24px);}
-.gr-i-pause 						{background-position: 0 calc(73 * -24px);}
-.gr-i-pencil 					{background-position: 0 calc(74 * -24px);}
-.gr-i-person 					{background-position: 0 calc(75 * -24px);}
-.gr-i-person-add				{background-position: 0 calc(76 * -24px);}
-.gr-i-pin							{background-position: 0 calc(77 * -24px);}
-.gr-i-place						{background-position: 0 calc(78 * -24px);}
-.gr-i-play							{background-position: 0 calc(79 * -24px);}
-.gr-i-plus							{background-position: 0 calc(80 * -24px);}
-.gr-i-preview					{background-position: 0 calc(81 * -24px);}
-.gr-i-print						{background-position: 0 calc(82 * -24px);}
-.gr-i-quarter		    	{background-position: 0 calc(83 * -24px);}
-.gr-i-redo		    			{background-position: 0 calc(84 * -24px);}
-.gr-i-refresh		    	{background-position: 0 calc(85 * -24px);}
-.gr-i-remove		    		{background-position: 0 calc(86 * -24px);}
-.gr-i-restore		    	{background-position: 0 calc(87 * -24px);}
-.gr-i-rotate-ccw		   	{background-position: 0 calc(88 * -24px);}
-.gr-i-rotate-cw		   	{background-position: 0 calc(89 * -24px);}
-.gr-i-rows			    		{background-position: 0 calc(90 * -24px);}
-.gr-i-rss-feed					{background-position: 0 calc(91 * -24px);}
-.gr-i-search						{background-position: 0 calc(92 * -24px);}
-.gr-i-seegr-e						{background-position: 0 calc(93 * -24px);}
-.gr-i-seegr-n						{background-position: 0 calc(94 * -24px);}
-.gr-i-seegr-s						{background-position: 0 calc(95 * -24px);}
-.gr-i-seegr-w						{background-position: 0 calc(96 * -24px);}
-.gr-i-settings					{background-position: 0 calc(97 * -24px);}
-.gr-i-shuffle					{background-position: 0 calc(98 * -24px);}
-.gr-i-sort-asc					{background-position: 0 calc(99 * -24px);}
-.gr-i-sort-desc				{background-position: 0 calc(100 * -24px);}
-.gr-i-sum							{background-position: 0 calc(101 * -24px);}
-.gr-i-swap-horiz				{background-position: 0 calc(102 * -24px);}
-.gr-i-swap-vert				{background-position: 0 calc(103 * -24px);}
-.gr-i-sync							{background-position: 0 calc(104 * -24px);}
-.gr-i-tag							{background-position: 0 calc(105 * -24px);}
-.gr-i-trash						{background-position: 0 calc(106 * -24px);}
-.gr-i-three-quarters		{background-position: 0 calc(107 * -24px);}
-.gr-i-undo							{background-position: 0 calc(108 * -24px);}
-.gr-i-unexcused				{background-position: 0 calc(109 * -24px);}
-.gr-i-unfold						{background-position: 0 calc(110 * -24px);}
-.gr-i-unlock						{background-position: 0 calc(111 * -24px);}
-.gr-i-upload						{background-position: 0 calc(112 * -24px);}
-.gr-i-volume-mute			{background-position: 0 calc(113 * -24px);}
-.gr-i-volume-up				{background-position: 0 calc(114 * -24px);}
-.gr-i-warning					{background-position: 0 calc(115 * -24px);}
-.gr-i-warning-fill			{background-position: 0 calc(116 * -24px);}
-.gr-i-close						{background-position: 0 calc(117 * -24px);}
-.gr-i-zoom-in					{background-position: 0 calc(118 * -24px);}
-.gr-i-zoom-out					{background-position: 0 calc(119 * -24px);}
+.gr-i-apps         {background-position: 0 calc(120 * -24px);}
+.gr-i-arrow-e        {background-position: 0 calc(121 * -24px);}
+.gr-i-arrow-n        {background-position: 0 calc(122 * -24px);}
+.gr-i-arrow-s        {background-position: 0 calc(123 * -24px);}
+.gr-i-arrow-w        {background-position: 0 calc(124 * -24px);}
+.gr-i-arrowhead-e      {background-position: 0 calc(125 * -24px);}
+.gr-i-arrowhead-n      {background-position: 0 calc(126 * -24px);}
+.gr-i-arrowhead-s      {background-position: 0 calc(127 * -24px);}
+.gr-i-arrowhead-w      {background-position: 0 calc(128 * -24px);}
+.gr-i-collapse       {background-position: 0 calc(129 * -24px);}
+.gr-i-collapse-horiz     {background-position: 0 calc(130 * -24px);}
+.gr-i-menu         {background-position: 0 calc(131 * -24px);}
+.gr-i-more         {background-position: 0 calc(132 * -24px);}
 
-.gr-i-apps							{background-position: 0 calc(120 * -24px);}
-.gr-i-arrow-e					{background-position: 0 calc(121 * -24px);}
-.gr-i-arrow-n					{background-position: 0 calc(122 * -24px);}
-.gr-i-arrow-s					{background-position: 0 calc(123 * -24px);}
-.gr-i-arrow-w					{background-position: 0 calc(124 * -24px);}
-.gr-i-arrowhead-e			{background-position: 0 calc(125 * -24px);}
-.gr-i-arrowhead-n			{background-position: 0 calc(126 * -24px);}
-.gr-i-arrowhead-s			{background-position: 0 calc(127 * -24px);}
-.gr-i-arrowhead-w			{background-position: 0 calc(128 * -24px);}
-.gr-i-collapse					{background-position: 0 calc(129 * -24px);}
-.gr-i-collapse-horiz		{background-position: 0 calc(130 * -24px);}
-.gr-i-menu							{background-position: 0 calc(131 * -24px);}
-.gr-i-more							{background-position: 0 calc(132 * -24px);}
+.gr-i-back-color       {background-position: 0 calc(133 * -24px);}
+.gr-i-bold         {background-position: 0 calc(134 * -24px);}
+.gr-i-html         {background-position: 0 calc(135 * -24px);}
+.gr-i-hyperlink        {background-position: 0 calc(136 * -24px);}
+.gr-i-image          {background-position: 0 calc(137 * -24px);}
+.gr-i-indent         {background-position: 0 calc(138 * -24px);}
+.gr-i-insert-ordered-list  {background-position: 0 calc(139 * -24px);}
+.gr-i-insert-unordered-list  {background-position: 0 calc(140 * -24px);}
+.gr-i-italic         {background-position: 0 calc(141 * -24px);}
+.gr-i-justify-center     {background-position: 0 calc(142 * -24px);}
+.gr-i-justify-full     {background-position: 0 calc(143 * -24px);}
+.gr-i-justify-left     {background-position: 0 calc(144 * -24px);}
+.gr-i-justify-right      {background-position: 0 calc(145 * -24px);}
+.gr-i-outdent        {background-position: 0 calc(146 * -24px);}
+.gr-i-strikethrough      {background-position: 0 calc(147 * -24px);}
+.gr-i-underline        {background-position: 0 calc(148 * -24px);}
 
-.gr-i-bacgr-color				{background-position: 0 calc(133 * -24px);}
-.gr-i-bold							{background-position: 0 calc(134 * -24px);}
-.gr-i-html							{background-position: 0 calc(135 * -24px);}
-.gr-i-hyperlink				{background-position: 0 calc(136 * -24px);}
-.gr-i-image						{background-position: 0 calc(137 * -24px);}
-.gr-i-indent						{background-position: 0 calc(138 * -24px);}
-.gr-i-insert-ordered-list		{background-position: 0 calc(139 * -24px);}
-.gr-i-insert-unordered-list	{background-position: 0 calc(140 * -24px);}
-.gr-i-italic						{background-position: 0 calc(141 * -24px);}
-.gr-i-justify-center		{background-position: 0 calc(142 * -24px);}
-.gr-i-justify-full			{background-position: 0 calc(143 * -24px);}
-.gr-i-justify-left			{background-position: 0 calc(144 * -24px);}
-.gr-i-justify-right		{background-position: 0 calc(145 * -24px);}
-.gr-i-outdent					{background-position: 0 calc(146 * -24px);}
-.gr-i-strikethrough		{background-position: 0 calc(147 * -24px);}
-.gr-i-underline				{background-position: 0 calc(148 * -24px);}
+.gr-i-cloud-upload       {background-position: 0 calc(161 * -24px);}
+.gr-i-folder         {background-position: 0 calc(162 * -24px);}
+.gr-i-folder-add       {background-position: 0 calc(163 * -24px);}
+.gr-i-folder-locked      {background-position: 0 calc(164 * -24px);}
+.gr-i-folder-received    {background-position: 0 calc(149 * -24px);}
+.gr-i-file         {background-position: 0 calc(150 * -24px);}
+.gr-i-file-archive     {background-position: 0 calc(151 * -24px);}
+.gr-i-file-data        {background-position: 0 calc(152 * -24px);}
+.gr-i-file-excel       {background-position: 0 calc(153 * -24px);}
+.gr-i-file-movie       {background-position: 0 calc(154 * -24px);}
+.gr-i-file-music       {background-position: 0 calc(155 * -24px);}
+.gr-i-file-pdf       {background-position: 0 calc(156 * -24px);}
+.gr-i-file-powerpoint    {background-position: 0 calc(157 * -24px);}
+.gr-i-file-presentation    {background-position: 0 calc(158 * -24px);}
+.gr-i-file-text        {background-position: 0 calc(159 * -24px);}
+.gr-i-file-word        {background-position: 0 calc(160 * -24px);}
+.gr-i-file-add       {background-position: 0 calc(165 * -24px);}
+.gr-i-folder-shared      {background-position: 0 calc(166 * -24px);}
+.gr-i-folder-system      {background-position: 0 calc(167 * -24px);}
+.gr-i-folder-upload      {background-position: 0 calc(168 * -24px);}
 
-.gr-i-cloud-upload 						{background-position: 0 calc(161 * -24px);}
-.gr-i-folder						{background-position: 0 calc(162 * -24px);}
-.gr-i-folder-add				{background-position: 0 calc(163 * -24px);}
-.gr-i-folder-locked		{background-position: 0 calc(164 * -24px);}
-.gr-i-folder-received	{background-position: 0 calc(149 * -24px);}
-.gr-i-file							{background-position: 0 calc(150 * -24px);}
-.gr-i-file-archive			{background-position: 0 calc(151 * -24px);}
-.gr-i-file-data				{background-position: 0 calc(152 * -24px);}
-.gr-i-file-excel				{background-position: 0 calc(153 * -24px);}
-.gr-i-file-movie				{background-position: 0 calc(154 * -24px);}
-.gr-i-file-music				{background-position: 0 calc(155 * -24px);}
-.gr-i-file-pdf					{background-position: 0 calc(156 * -24px);}
-.gr-i-file-powerpoint	{background-position: 0 calc(157 * -24px);}
-.gr-i-file-presentation			{background-position: 0 calc(158 * -24px);}
-.gr-i-file-text				{background-position: 0 calc(159 * -24px);}
-.gr-i-file-word				{background-position: 0 calc(160 * -24px);}
-.gr-i-file-add	{background-position: 0 calc(165 * -24px);}
-.gr-i-folder-shared		{background-position: 0 calc(166 * -24px);}
-.gr-i-folder-system		{background-position: 0 calc(167 * -24px);}
-.gr-i-folder-upload		{background-position: 0 calc(168 * -24px);}
+.gr-i-expand         {background-position: 0 calc(169 * -24px);}
+.gr-i-expand-horiz     {background-position: 0 calc(170 * -24px);}
+.gr-i-cloud          {background-position: 0 calc(171 * -24px);}
+.gr-i-file-image       {background-position: 0 calc(172 * -24px);}
+.gr-i-hyperlink-remove   {background-position: 0 calc(173 * -24px);}
+.gr-i-group-elements     {background-position: 0 calc(174 * -24px);}
+.gr-i-ungroup-elements   {background-position: 0 calc(175 * -24px);}
 
-.gr-i-expand						{background-position: 0 calc(169 * -24px);}
-.gr-i-expand-horiz			{background-position: 0 calc(170 * -24px);}
-.gr-i-cloud 						{background-position: 0 calc(171 * -24px);}
-.gr-i-file-image				{background-position: 0 calc(172 * -24px);}
-.gr-i-hyperlingr-remove	{background-position: 0 calc(173 * -24px);}
-.gr-i-group-elements 	{background-position: 0 calc(174 * -24px);}
-.gr-i-ungroup-elements	{background-position: 0 calc(175 * -24px);}
+.gr-i-folder-filter      {background-position: 0 calc(176 * -24px);}
+.gr-i-folder-filter-received {background-position: 0 calc(177 * -24px);}
+.gr-i-folder-filter-shared {background-position: 0 calc(178 * -24px);}
 
-.gr-i-folder-filter						{background-position: 0 calc(176 * -24px);}
-.gr-i-folder-filter-received		{background-position: 0 calc(177 * -24px);}
-.gr-i-folder-filter-shared			{background-position: 0 calc(178 * -24px);}
+.gr-i-restore-trash        {background-position: 0 calc(179 * -24px);}
+.gr-i-save           {background-position: 0 calc(180 * -24px);}
+.gr-i-adjust           {background-position: 0 calc(181 * -24px);}
+.gr-i-app-download       {background-position: 0 calc(182 * -24px);}
+.gr-i-file-drag          {background-position: 0 calc(183 * -24px);}
 
-.gr-i-restore-trash			{background-position: 0 calc(179 * -24px);}
-.gr-i-save					{background-position: 0 calc(180 * -24px);}
-.gr-i-adjust					{background-position: 0 calc(181 * -24px);}
-.gr-i-app-download					{background-position: 0 calc(182 * -24px);}
-.gr-i-file-drag					{background-position: 0 calc(183 * -24px);}
-
+.gr-i-checked-false        {background-position: 0 calc(184 * -24px);}
+.gr-i-checked-true       {background-position: 0 calc(185 * -24px);}
+.gr-i-folder-storage-received  {background-position: 0 calc(186 * -24px);}
+.gr-i-folder-storage-shared    {background-position: 0 calc(187 * -24px);}
+.gr-i-folder-storage       {background-position: 0 calc(188 * -24px);}
+.gr-i-text-edit          {background-position: 0 calc(189 * -24px);}
