@@ -1,3 +1,10 @@
+## 1.0.9
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Date**: Fri 31 Aug 2018 17:09:45 CEST
+
+* [CHANGE] Merged PR #1 by pixtron: Remove fill color for checked-* icons
+
+
 ## 1.0.8
 **Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
 **Date**: Tue 21 Aug 2018 12:08:45 CEST

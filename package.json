@@ -1,6 +1,6 @@
 {
   "name": "@gyselroth/icon-collection",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "SVG icon collection (including css definitions)",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "css3",
     "css"
   ],
-  "author": "gyselroth GmbH <maint@gyselroth.com>",
+  "author": "gyselroth GmbH <opensource@gyselroth.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gyselroth/icon-collection/issues"
