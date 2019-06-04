@@ -1,3 +1,10 @@
+## 1.0.10
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Date**: Tue 04 Jun 2019 16:39:45 CEST
+
+* [FEATURE] Added new icons: file-burl, file-markdown, fingerprint, heading-big, heading-medium, heading-small, quote, hint
+
+
 ## 1.0.9
 **Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
 **Date**: Fri 31 Aug 2018 17:09:45 CEST
