@@ -1,3 +1,11 @@
+## 1.0.11
+**Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
+**Date**: Fri 11 Jun 2019 15:19:01 CEST
+
+* [CHANGE] Reduces icon size file-markdown and hint
+* [FEATURE] Added docs
+
+
 ## 1.0.10
 **Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
 **Date**: Tue 04 Jun 2019 16:39:45 CEST
