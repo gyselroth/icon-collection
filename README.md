@@ -10,6 +10,10 @@ This library provides an icon collection based on svg.
 npm --save install @gyselroth/icon-collection
 ```
 
+## Documentation & Overview
+
+Please visit the [docs](https://gyselroth.github.io/icon-collection/).
+
 ## Usage example
 ```html
 <div class="gr-icon gr-i-file"></div>
@@ -26,7 +30,3 @@ An icon with gr-mask-icon takes the color from `background-color`.
 
 ### Browser Support
 If you want to use color masks, please see browser support for [css masks](http://caniuse.com/#feat=css-masks).
-
-
-## Icon collection
-![Preview](https://raw.githubusercontent.com/gyselroth/icon-collection/master/src/icons.svg?sanitize=true)
