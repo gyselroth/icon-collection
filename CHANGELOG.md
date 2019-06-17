@@ -1,3 +1,10 @@
+## 1.0.12
+**Maintainer**: Dana Badulescu <badulescu@gyselroth.com>\
+**Date**: Fri 17 Jun 2019 15:54:01 CEST
+
+* [CHANGE] file-markdown changed
+
+
 ## 1.0.11
 **Maintainer**: Raffael Sahli <sahli@gyselroth.com>\
 **Date**: Fri 11 Jun 2019 15:19:01 CEST
