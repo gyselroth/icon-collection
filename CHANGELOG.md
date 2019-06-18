@@ -1,3 +1,10 @@
+## 1.0.13
+**Maintainer**: Dana Badulescu <badulescu@gyselroth.com>\
+**Date**: Fri 18 Jun 2019 10:22:01 CEST
+
+* [CHANGE] class-book-flip, seek-e, seek-n, seek-s, seek-w, hyperlink-remove, back-color changed
+
+
 ## 1.0.12
 **Maintainer**: Dana Badulescu <badulescu@gyselroth.com>\
 **Date**: Fri 17 Jun 2019 15:54:01 CEST
